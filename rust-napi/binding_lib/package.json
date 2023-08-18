@@ -1,0 +1,15 @@
+{
+  "name": "binding_lib",
+  "version": "0.0.0",
+  "private": true,
+  "napi": {
+    "name": "pairs_gen"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^1.0.0"
+  },
+  "scripts": {
+    "build": "napi build --release",
+    "build:debug": "napi build"
+  }
+}
